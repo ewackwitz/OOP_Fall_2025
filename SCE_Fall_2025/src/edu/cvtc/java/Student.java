@@ -13,6 +13,11 @@ public class Student {
   private boolean eligibility;
   private String paymentType;
 
+  // Constructor
+  public Student(String studentID) {
+
+  }
+
   // Methods
   public String getStudentID() {
     return studentID;
