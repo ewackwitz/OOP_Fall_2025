@@ -55,27 +55,27 @@ public class Rectangle {
   public String toString() {
     String retVal = "";
 
-//    retVal += "<!DOCTYPE html>\n" +
-//        "<html lang=\"en\">\n" +
-//        "<head>\n" +
-//        "  <meta charset=\"UTF-8\">\n" +
-//        "  <title>Java Demo</title>\n" +
-//        "</head>\n" +
-//        "<body>\n" +
-//        "  <h2>Rectangle</h2>\n" +
-//        "  <p>Length: " + getLength() + "</p>\n" +
-//        "  <p>Width: " + getWidth() + "</p>\n" +
-//        "  <p>Area: " + getArea() + "</p>\n" +
-//        "</body>\n" +
-//        "</html>";
+    retVal += "<!DOCTYPE html>\n" +
+        "<html lang=\"en\">\n" +
+        "<head>\n" +
+        "  <meta charset=\"UTF-8\">\n" +
+        "  <title>Java Demo</title>\n" +
+        "</head>\n" +
+        "<body>\n" +
+        "  <h2>Rectangle</h2>\n" +
+        "  <p>Length: " + getLength() + "</p>\n" +
+        "  <p>Width: " + getWidth() + "</p>\n" +
+        "  <p>Area: " + getArea() + "</p>\n" +
+        "</body>\n" +
+        "</html>";
 
-    if (getArea() <= 0.0) {
-      retVal = "Area is less than 0.";
-    } else {
-      retVal += "Length: " + getLength() + "\n";
-      retVal += "Width: " + getWidth() + "\n";
-      retVal += "Area: " + getArea() + "\n";
-    }
+//    if (getArea() <= 0.0) {
+//      retVal = "Area is less than 0.";
+//    } else {
+//      retVal += "Length: " + getLength() + "\n";
+//      retVal += "Width: " + getWidth() + "\n";
+//      retVal += "Area: " + getArea() + "\n";
+//    }
 
 
     return retVal;

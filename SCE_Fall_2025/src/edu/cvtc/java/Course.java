@@ -11,6 +11,20 @@ public class Course {
   private int capacity;
   private String dateTime;
 
+  // Constructors
+  public Course() {}
+
+  public Course(String courseID, String courseName,
+                String description, double cost,
+                String location, int capacity, String dateTime) {
+    setCourseID(courseID);
+    setCourseName(courseName);
+    setDescription(description);
+    setCost(cost);
+    setLocation(location);
+    setCapacity(capacity);
+    setDateTime(dateTime);
+  }
 
   // Methods
   public String getCourseID() {

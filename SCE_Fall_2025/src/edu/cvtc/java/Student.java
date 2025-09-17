@@ -14,8 +14,24 @@ public class Student {
   private String paymentType;
 
   // Constructor
-  public Student(String studentID) {
+  public Student() {
 
+  }
+
+  public Student(String studentID, String firstName,
+                 String lastName, String dateOfBirth,
+                 String streetAddress,
+                 String phoneNumber, String emailAddress,
+                 boolean eligibility, String paymentType) {
+    setStudentID(studentID);
+    setFirstName(firstName);
+    setLastName(lastName);
+    setDateOfBirth(dateOfBirth);
+    setStreetAddress(streetAddress);
+    setPhoneNumber(phoneNumber);
+    setEmailAddress(emailAddress);
+    setEligibility(eligibility);
+    setPaymentType(paymentType);
   }
 
   // Methods

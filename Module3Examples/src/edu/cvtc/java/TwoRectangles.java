@@ -20,9 +20,12 @@ public class TwoRectangles {
 //    System.out.println(box1);
 
     // Create an output file
-    PrintWriter htmlFile = new PrintWriter("test.txt");
+    PrintWriter htmlFile = new PrintWriter("index.html");
 
     System.out.println(box1);
+    htmlFile.println(box1);
+
+    htmlFile.close();
 
 
   }

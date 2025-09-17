@@ -6,6 +6,14 @@ public class Enrollment {
   private Student student;
   private Course[] courses;
 
+  // Constructors
+  public Enrollment() {}
+
+  public Enrollment(Student student, Course[] courses) {
+    setStudent(student);
+    setCourses(courses);
+  }
+
   // Methods
   public Student getStudent() {
     return student;
