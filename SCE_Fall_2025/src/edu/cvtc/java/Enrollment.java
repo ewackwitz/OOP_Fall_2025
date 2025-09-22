@@ -30,4 +30,17 @@ public class Enrollment {
   public void setCourses(Course[] courses) {
     this.courses = courses;
   }
+
+  @Override
+  public String toString() {
+    String retVal = "";
+
+    retVal += student;
+
+    for (int i = 0; i < courses.length; i++) {
+      retVal += courses[i];
+    }
+
+    return retVal;
+  }
 }

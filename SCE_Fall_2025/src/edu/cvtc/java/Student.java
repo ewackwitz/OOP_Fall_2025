@@ -91,7 +91,7 @@ public class Student {
     this.emailAddress = emailAddress;
   }
 
-  public boolean isEligibility() {
+  public boolean getEligibility() {
     return eligibility;
   }
 
@@ -105,5 +105,17 @@ public class Student {
 
   public void setPaymentType(String paymentType) {
     this.paymentType = paymentType;
+  }
+
+  @Override
+  public String toString() {
+    String retVal = "";
+
+    retVal += "------ STUDENT ------" + "\n";
+    retVal += getFirstName() + " " + getLastName() + "\n";
+    retVal += getStudentID() + "\n";
+    retVal += getEmailAddress() + "\n\n";
+
+    return retVal;
   }
 }

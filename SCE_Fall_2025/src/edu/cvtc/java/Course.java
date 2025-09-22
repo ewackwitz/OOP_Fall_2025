@@ -82,4 +82,19 @@ public class Course {
   public void setDateTime(String dateTime) {
     this.dateTime = dateTime;
   }
+
+
+  @Override
+  public String toString() {
+    String retVal = "";
+
+    retVal += "------ COURSES ------" + "\n";
+    retVal += getCourseName() + "\n";
+    retVal += getDescription() + "\n";
+    retVal += getCost() + "\n";
+    retVal += getCapacity() + "\n";
+    retVal += getLocation() + "\n\n";
+
+    return retVal;
+  }
 }
