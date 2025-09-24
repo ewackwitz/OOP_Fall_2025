@@ -1,11 +1,9 @@
 package edu.cvtc.java;
 
-public class Bud {
+public class Bud extends Ernest {
 
   // Attributes
-  private String hairColor;
   private String eyeColor;
-
 
   // Methods
   public String getEyeColor() {
@@ -16,11 +14,4 @@ public class Bud {
     this.eyeColor = eyeColor;
   }
 
-  public String getHairColor() {
-    return hairColor;
-  }
-
-  public void setHairColor(String hairColor) {
-    this.hairColor = hairColor;
-  }
 }

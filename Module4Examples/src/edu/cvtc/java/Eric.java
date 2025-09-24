@@ -1,29 +1,11 @@
 package edu.cvtc.java;
 
-public class Eric {
+public class Eric extends Bud {
 
   // Attributes
-  private String hairColor;
-  private String eyeColor;
   private String height;
 
   // Methods
-  public String getEyeColor() {
-    return eyeColor;
-  }
-
-  public void setEyeColor(String eyeColor) {
-    this.eyeColor = eyeColor;
-  }
-
-  public String getHairColor() {
-    return hairColor;
-  }
-
-  public void setHairColor(String hairColor) {
-    this.hairColor = hairColor;
-  }
-
   public String getHeight() {
     return height;
   }
