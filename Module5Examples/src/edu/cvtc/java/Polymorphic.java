@@ -4,7 +4,7 @@ public class Polymorphic {
 
   public static void main(String[] args) {
 
-    int NUMBER_OF_GRADES = 3;
+    final int NUMBER_OF_GRADES = 3;
 
     GradedActivity[] grades = new GradedActivity[NUMBER_OF_GRADES];
 
