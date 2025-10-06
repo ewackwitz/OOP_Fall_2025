@@ -16,8 +16,6 @@ public class Polymorphic {
     grades[1] = new PassFailExam(70,
         100, 20);
 
-//    System.out.println(grades[1].get);
-
     // Third one is a FinalExam
     grades[2] = new FinalExam(100, 17);
 
